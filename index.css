@@ -1,0 +1,56 @@
+#header img{
+    width: 40px;
+    height: 40px;
+}
+
+.text-pensionate{
+    color: #069EDD !important;
+}
+
+.btn-pensionate{
+    background-color: #069EDD !important;
+    color:white !important;
+}
+
+.btn-pensionate:hover{
+    background-color: #086992 !important;
+}
+
+#place{
+    background-color: #292e33;
+    color:white;
+}
+#place img{
+    max-width: 100%;
+}
+
+#main .carousel-inner img{
+    max-height: 70vh;
+    object-fit: fill;
+    filter: grayscale(95%);
+}
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+#carousel .overlay .container,.row{
+    height: 100%;
+}
+
+#footer {
+    background: linear-gradient(90deg,#071C42,rgb(18, 38, 75) 25%,#04193F);
+}
+
+#footer a{
+    color: white;
+}
